@@ -1,0 +1,15 @@
+{
+  "name": "homebridge-walz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "homebridge"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "homebridge": "^0.4.6",
+    "homebridge-wink": "^1.1.1"
+  }
+}
