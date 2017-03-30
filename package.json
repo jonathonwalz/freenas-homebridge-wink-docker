@@ -1,8 +1,8 @@
 {
-  "name": "homebridge-walz",
-  "version": "1.0.0",
+  "name": "freenas-homebridge-wink-docker",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "start": "homebridge"
   },
