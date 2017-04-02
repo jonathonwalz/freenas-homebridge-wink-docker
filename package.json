@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "homebridge": "^0.4.6",
-    "homebridge-wink": "^1.1.1"
+    "homebridge-wink": "^1.1.1",
+    "homebridge-wol": "^2.1.0"
   }
 }
