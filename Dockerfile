@@ -1,12 +1,12 @@
-FROM node:6-alpine
+FROM node:10-alpine
 
-COPY package.json package.json
+COPY package*.json ./
 
 RUN \
   apk add --no-cache --update avahi dbus make gcc g++ python avahi-dev avahi-compat-libdns_sd supervisor && \
   npm config set progress false && \
   npm install --production && \
-  npm cache clean && \
+  npm cache clean --force && \
   apk del make gcc g++ python avahi-dev
 COPY supervisord.conf /etc/supervisord.conf
 
